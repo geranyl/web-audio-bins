@@ -13,8 +13,6 @@ window.onload = function () {
     var useSoundCloud = true;
 
 
-
-
     var playerDOMElement = document.getElementById('player');
     var visual;
     var player = FT.Player();
@@ -53,12 +51,14 @@ window.onload = function () {
 
     if (useSoundCloud) {
         //var track = 'https://soundcloud.com/infacted-recordings/shiv-r-pharmaceutical-grade';
-        var track = 'https://soundcloud.com/nemo-iam/bobcaygeon-the-tragically-hip'
+        //var track = 'https://soundcloud.com/nemo-iam/bobcaygeon-the-tragically-hip';
         //var track = 'https://soundcloud.com/thegrandarchitect/tools-sine-frequency-sweep';
         //var track = 'https://soundcloud.com/acle/4d-sounds-drum-test-quick-mix';
         //var track = 'https://soundcloud.com/bassnectar/ellie-goulding-lights-bassnectar-remix';
         //var track = 'https://soundcloud.com/sony-classical/sets/henrik-schwarz-instruments-1';
         //var track = 'https://soundcloud.com/xavier-de-maistre/w-a-mozart-concerto-for-flute';
+        //var track = 'https://soundcloud.com/reasonto/black-flies';
+        var track = 'https://soundcloud.com/skrillex/ragga-bomb-skrillex-zomboy-remix';
 
         sc.getTrack(track, function (streamURL) {
             playIt(streamURL, null, sampleRanges);

@@ -32,7 +32,7 @@ FT.SampleVisual = function (buckets) {
 
         for (var i = 0; i < buckets.length; i++) {
             canvasCtx.fillStyle = 'hsl(' + 360 * (i / buckets.length) + ', 50%, 50%)';
-            canvasCtx.fillRect(x, HEIGHT - 10, sliceWidth, -buckets[i] * HEIGHT / 2 - 1);
+            canvasCtx.fillRect(x, HEIGHT-10, sliceWidth, -buckets[i] * HEIGHT / 2 - 1);
             x += sliceWidth;
         }
 
