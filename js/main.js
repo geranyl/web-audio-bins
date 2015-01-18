@@ -58,7 +58,10 @@ window.onload = function () {
         //var track = 'https://soundcloud.com/sony-classical/sets/henrik-schwarz-instruments-1';
         //var track = 'https://soundcloud.com/xavier-de-maistre/w-a-mozart-concerto-for-flute';
         //var track = 'https://soundcloud.com/reasonto/black-flies';
-        var track = 'https://soundcloud.com/skrillex/ragga-bomb-skrillex-zomboy-remix';
+        //var track = 'https://soundcloud.com/skrillex/ragga-bomb-skrillex-zomboy-remix'; //seems to be the best for spectrum testing
+        //var track = 'https://soundcloud.com/chad-lawson/nocturne-in-f-minor-op-55-no-1-variation-piano-violin-cello';
+        //var track = 'https://soundcloud.com/youngrival/sets/young-rival-ep-2008';
+        var track = 'https://soundcloud.com/romeosoroka/sleetgrout-rotten-reverie-remixed-by-ginger-snap5';
 
         sc.getTrack(track, function (streamURL) {
             playIt(streamURL, null, sampleRanges);
